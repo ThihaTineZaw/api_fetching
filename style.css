@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #4e4b4b;
+  color: white;
+}
+
+.search_header {
+  display: flex;
+  justify-content: center;
+}
+
+.search_box{
+  width: 350px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+
+.table_design {
+  border-collapse: collapse;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.table_design th {
+  background-color: rgb(243, 215, 173);
+  font-size: 20px;
+}
+
+.table_design th,
+.table_design td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.table_design tr:nth-child(even) {
+  background-color: #79747435;
+}
+.table_design tr:hover {
+  background-color: #79747490;
+}
+
+.datafetching {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 1.5rem;
+}
+span {
+  position: relative;
+  padding-top: 20px;
+  top: 20px;
+  animation: bouse 0.8s infinite alternate;
+}
+
+div span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+div span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+div span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+div span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+div span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+@keyframes bouse {
+  100% {
+    top: -25px;
+  }
+}
+
+.D {
+  color: green;
+}
+.A01 {
+  color: red;
+}
+
+.T {
+  color: yellow;
+}
+.A02 {
+  color: blue;
+}
